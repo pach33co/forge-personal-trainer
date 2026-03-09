@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORGE - Personal Trainer</title>
+    <!-- Link da fonte do Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="nav-logo">FORGE</div>
+
+        <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#results">Resultados</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+
+        <button class="nav-hamburger" id="hamburger" aria-label="Abrir menu"></button>
+
+        <button class="nav-cta">Começar Agora</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#results">Resultados</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <a href="#contact" class="btn-primary">Começar Agora</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+        <!-- BACKGROUND MP4 -->
+        <div class="hero-bg">
+            <video class="hero-video" autoplay muted loop playsinline poster="assets/images/hero-poster.jpg">
+                <source src="assets/videos/hero.mp4" type="video/mp4" />
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="hero-content">
+            <p class="hero-tag">Personal Training Premium</p>
+
+            <h1 class="hero-title">
+                FORGE YOUR<br>
+                <span>BEST</span> SELF
+            </h1>
+
+            <p class="hero-desc">
+                Treinos personalizados que transformam corpo e mentalidade.
+                Sem achismo — metodologia baseada em ciência e resultados reais.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">Agendar Avaliação</a>
+                <a href="#results" class="btn-ghost">Ver Resultados</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-num">200+</div>
+                    <div class="stat-label">Alunos Transformados</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">8</div>
+                    <div class="stat-label">Anos de Experiência</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-num">98%</div>
+                    <div class="stat-label">Taxa de Satisfação</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+        <div class="marquee-track">
+            <span class="marquee-item">HIPERTROFIA</span>
+            <span class="marquee-item">EMAGRECIMENTO</span>
+            <span class="marquee-item">PERFORMANCE</span>
+            <span class="marquee-item">REABILITAÇÃO</span>
+            <span class="marquee-item">FUNCIONAL</span>
+            <span class="marquee-item">NUTRIÇÃO</span>
+            <!-- Duplicata exata — necessária para o loop ser contínuo -->
+            <span class="marquee-item">HIPERTROFIA</span>
+            <span class="marquee-item">EMAGRECIMENTO</span>
+            <span class="marquee-item">PERFORMANCE</span>
+            <span class="marquee-item">REABILITAÇÃO</span>
+            <span class="marquee-item">FUNCIONAL</span>
+            <span class="marquee-item">NUTRIÇÃO</span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+
+            <div class="about-grid">
+
+                <!-- Coluna esquerda: foto + certificações -->
+                <div class="about-visual reveal">
+                    <div class="about-card">
+                        <div class="about-photo">
+                            <img src="assets/images/personal.png" alt="Foto do personal trainer" />
+                        </div>
+                        <ul class="cert-list">
+                            <li class="cert-item">
+                                <span class="cert-icon">✓</span>
+                                CREF Ativo — Conselho Regional de Ed. Física
+                            </li>
+                            <li class="cert-item">
+                                <span class="cert-icon">✓</span>
+                                Especialização em Treinamento de Força
+                            </li>
+                            <li class="cert-item">
+                                <span class="cert-icon">✓</span>
+                                Certificado em Nutrição Esportiva
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Coluna direita: texto + counters -->
+                <div class="about-content">
+                    <p class="section-label reveal-delay-1">Sobre o Profissional</p>
+                    <h2 class="section-title reveal-delay-2">Método que <span>entrega</span> resultado</h2>
+                    <p class="section-body reveal-delay-3">
+                        Com mais de 8 anos de experiência e mais de 200 alunos atendidos,
+                        trabalho com uma metodologia que combina avaliação física completa,
+                        planejamento individualizado e acompanhamento constante.
+                        Cada treino é desenhado para o seu corpo, sua rotina e seu objetivo.
+                    </p>
+                    <p class="section-body">
+                        Não vendo milagre. Vendo processo — e o processo funciona.
+                    </p>
+
+                    <!-- Counters animados -->
+                    <div class="about-counters">
+                        <div class="counter-item">
+                            <div class="counter-num">
+                                <span class="counter" data-target="200">0</span>+
+                            </div>
+                            <div class="counter-label">Alunos transformados</div>
+                        </div>
+                        <div class="counter-item">
+                            <div class="counter-num">
+                                <span class="counter" data-target="8">0</span>
+                            </div>
+                            <div class="counter-label">Anos de experiência</div>
+                        </div>
+                        <div class="counter-item">
+                            <div class="counter-num">
+                                <span class="counter" data-target="98">0</span>%
+                            </div>
+                            <div class="counter-label">Taxa de satisfação</div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn-primary">Quero começar agora</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="services-header reveal">
+                <p class="section-label">Serviços</p>
+                <h2 class="section-title">Como posso <span>te ajudar</span></h2>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card reveal">
+                    <i class="ph-bold ph-barbell service-icon"></i>
+                    <h3 class="service-name">Treino Presencial</h3>
+                    <p class="service-desc">
+                        Sessões individuais com acompanhamento completo. Máxima atenção
+                        ao movimento, postura e evolução a cada treino.
+                    </p>
+                    <div class="service-price">
+                        R$ 280 <small>/ sessão</small>
+                    </div>
+                </div>
+
+
+                <div class="service-card reveal-delay-1">
+                    <i class="ph-bold ph-device-mobile service-icon"></i>
+                    <h3 class="service-name">Consultoria Online</h3>
+                    <p class="service-desc">
+                        Planilha de treino personalizada, suporte pelo WhatsApp e revisão
+                        mensal. Ideal para quem tem disciplina e quer estrutura.
+                    </p>
+                    <div class="service-price">
+                        R$ 199 <small>/ mês</small>
+                    </div>
+                </div>
+
+                <div class="service-card reveal-delay-2">
+                    <i class="ph-bold ph-fork-knife service-icon"></i>
+                    <h3 class="service-name">Plano Completo</h3>
+                    <p class="service-desc">
+                        Treino + orientação nutricional integrados. A combinação mais
+                        eficiente para acelerar resultados e manter consistência.
+                    </p>
+                    <div class="service-price">
+                        R$ 399 <small>/ mês</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results">
+        <div class="container">
+            <div class="results-header reveal">
+                <div>
+                    <p class="section-label">Depoimentos</p>
+                    <h2 class="section-title">Resultados <span>reais</span></h2>
+                </div>
+                <a href="#contact" class="btn-ghost">Quero o meu resultado →</a>
+            </div>
+
+            <div class="results-grid">
+
+                <div class="result-card reveal">
+                    <div class="result-img">
+                        <img src="assets/images/resultado-1.jpg" alt="Resultado Mariana" />
+                    </div>
+                    <div class="result-info">
+                        <div class="result-name">Mariana Costa, 32 anos</div>
+                        <div class="result-meta">−12kg em 5 meses</div>
+                        <p class="result-quote">
+                            "Tentei emagrecer durante anos sozinha. Em 5 meses com
+                            acompanhamento personalizado, finalmente consegui os resultados
+                            que sempre quis."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="result-card reveal-delay-1">
+                    <div class="result-img">
+                        <img src="assets/images/resultado-2.jpg" alt="Resultado Rafael" />
+                    </div>
+                    <div class="result-info">
+                        <div class="result-name">Rafael Souza, 28 anos</div>
+                        <div class="result-meta">+8kg de massa magra</div>
+                        <p class="result-quote">
+                            "Treinava há 3 anos sem resultado. A planilha e o suporte mudaram
+                            completamente minha evolução. Hoje tenho um físico que nunca
+                            imaginei ter."
+                        </p>
+                    </div>
+                </div>
+
+                <div class="result-card reveal-delay-2">
+                    <div class="result-img">
+                        <img src="assets/images/resultado-3.jpg" alt="Resultado Camila" />
+                    </div>
+                    <div class="result-info">
+                        <div class="result-name">Camila Ferreira, 45 anos</div>
+                        <div class="result-meta">Reabilitação + emagrecimento</div>
+                        <p class="result-quote">
+                            "Voltei a me exercitar após uma lesão no joelho com muito medo.
+                            O profissionalismo e a paciência fizeram toda a diferença
+                            na minha recuperação."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="cta-inner">
+
+                <div class="cta-text reveal">
+                    <p class="section-label">Contato</p>
+                    <h2 class="cta-title">PRONTO PARA COMEÇAR?</h2>
+                    <p class="cta-sub">
+                        Preencha o formulário e entraremos em contato em até 24h
+                        para agendar sua avaliação física gratuita.
+                    </p>
+                    <ul class="cta-perks">
+                        <li>
+                            <i class="ph-bold ph-check-circle"></i>
+                            Avaliação física 100% gratuita
+                        </li>
+                        <li>
+                            <i class="ph-bold ph-check-circle"></i>
+                            Sem fidelidade — cancele quando quiser
+                        </li>
+                        <li>
+                            <i class="ph-bold ph-check-circle"></i>
+                            Resposta em até 24 horas
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form reveal-delay-2" action="https://formsubmit.co/pachecmm@gmail.com"
+                    method="POST">
+                    <!-- Configurações ocultas do FormSubmit -->
+                    <input type="hidden" name="_subject" value="Novo contato via site — Forge Personal" />
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input type="hidden" name="_template" value="table" />
+                    <input type="text" name="_honey" style="display:none" />
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="whatsapp">WhatsApp</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(11) 99999-9999" required />
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="objetivo">Objetivo</label>
+                        <select id="objetivo" name="objetivo" required>
+                            <option value="" disabled selected>Selecione seu objetivo</option>
+                            <option value="Emagrecimento">Emagrecimento</option>
+                            <option value="Ganho de massa muscular">Ganho de massa muscular</option>
+                            <option value="Condicionamento físico">Condicionamento físico</option>
+                            <option value="Reabilitação / Saúde">Reabilitação / Saúde</option>
+                            <option value="Performance esportiva">Performance esportiva</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="mensagem">Mensagem <span class="label-optional">(opcional)</span></label>
+                        <textarea id="mensagem" name="mensagem"
+                            placeholder="Conta um pouco sobre você, sua rotina e seus objetivos..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        Agendar Avaliação Grátis
+                        <i class="ph-bold ph-arrow-right"></i>
+                    </button>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <!-- Coluna 1: Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">FORGE</div>
+                    <p class="footer-tagline">
+                        Transformando corpos e mentalidades através de treino personalizado, ciência e consistência.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="ph-bold ph-instagram-logo"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <i class="ph-bold ph-whatsapp-logo"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="ph-bold ph-youtube-logo"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Navegação -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#results">Resultados</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Serviços -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#contato">Treino Presencial</a></li>
+                        <li><a href="#contato">Consultoria Online</a></li>
+                        <li><a href="#contato">Plano Completo</a></li>
+                        <li><a href="#contato">Avaliação Gratuita</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 4: Contato rápido -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">Contato</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="ph-bold ph-map-pin"></i>
+                            São Paulo, SP
+                        </li>
+                        <li>
+                            <i class="ph-bold ph-whatsapp-logo"></i>
+                            (11) 99999-9999
+                        </li>
+                        <li>
+                            <i class="ph-bold ph-envelope-simple"></i>
+                            contato@forge.com.br
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Linha divisória -->
+            <div class="footer-divider"></div>
+
+            <!-- Rodapé inferior -->
+            <div class="footer-bottom">
+                <p class="footer-copy">
+                    © 2025 Forge Personal Training. Todos os direitos reservados.
+                </p>
+                <p class="footer-credit">
+                    Desenvolvido por
+                    <a href="https://www.linkedin.com/in/matheuspachecouxdesign/" target="_blank">Matheus Pacheco</a>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

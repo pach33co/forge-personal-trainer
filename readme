@@ -1,0 +1,141 @@
+# FORGE — Personal Trainer Landing Page
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
+Landing page profissional desenvolvida para personal trainers e academias. Projeto focado em conversão, com design moderno e experiência mobile otimizada.
+
+🔗 **[Ver projeto ao vivo](https://forge-personal-trainer.vercel.app)**
+
+---
+
+## 📋 Sobre o Projeto
+
+O FORGE é uma landing page de alta conversão para profissionais de educação física. O objetivo é apresentar os serviços do personal trainer, exibir resultados reais de alunos e capturar leads qualificados através de um formulário de contato funcional.
+
+---
+
+## ✨ Funcionalidades
+
+- **Vídeo de background** na seção Hero com fallback em imagem
+- **Marquee animado** com especialidades do profissional
+- **Contadores animados** disparados por scroll (IntersectionObserver)
+- **Formulário de contato funcional** via FormSubmit — sem backend
+- **Navbar com efeito glass** ativado ao scrollar
+- **Highlight de link ativo** na navbar conforme seção visível
+- **Máscara de telefone** no campo WhatsApp
+- **Scroll reveal** em todos os elementos
+- **Menu mobile** com drawer lateral
+- **Design 100% responsivo** — mobile, tablet e desktop
+- **Deploy contínuo** via Vercel + GitHub
+
+---
+
+## 🛠️ Tecnologias
+
+| Tecnologia | Uso |
+|---|---|
+| HTML5 semântico | Estrutura e acessibilidade |
+| CSS3 | Estilização, animações e responsividade |
+| JavaScript Vanilla | Interatividade e comportamentos |
+| Phosphor Icons | Biblioteca de ícones SVG |
+| Google Fonts | Bebas Neue, DM Sans, JetBrains Mono |
+| FormSubmit | Formulário funcional sem backend |
+| Vercel | Deploy e hospedagem |
+
+---
+
+## 📁 Estrutura de Pastas
+
+```
+forge-personal-trainer/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+└── assets/
+    ├── images/
+    │   ├── hero-poster.jpg
+    │   ├── personal.jpg
+    │   ├── resultado-1.jpg
+    │   ├── resultado-2.jpg
+    │   └── resultado-3.jpg
+    └── videos/
+        └── hero.mp4
+```
+
+---
+
+## 🚀 Como Rodar Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/SEU_USUARIO/forge-personal-trainer.git
+
+# Acesse a pasta
+cd forge-personal-trainer
+
+# Abra o index.html no navegador
+# Recomendado: usar a extensão Live Server no VS Code
+```
+
+Não há dependências ou instalações necessárias — o projeto roda diretamente no navegador.
+
+---
+
+## 📐 Seções
+
+| Seção | Descrição |
+|---|---|
+| **Hero** | Apresentação principal com vídeo de fundo e CTA |
+| **Marquee** | Faixa animada com especialidades |
+| **Sobre** | Perfil do profissional com certificações e contadores |
+| **Serviços** | Cards de planos com preços |
+| **Resultados** | Depoimentos de alunos com fotos |
+| **Contato** | Formulário funcional integrado ao FormSubmit |
+| **Footer** | Links, redes sociais e informações de contato |
+
+---
+
+## 🎨 Design
+
+- **Paleta:** Preto `#0a0a0a` + Verde-limão `#c8f53b`
+- **Tipografia Display:** Bebas Neue
+- **Tipografia Body:** DM Sans
+- **Tipografia Mono:** JetBrains Mono (contadores e labels)
+- **Identidade:** Brutal, direto e premium
+
+---
+
+## 📱 Responsividade
+
+| Breakpoint | Dispositivo |
+|---|---|
+| > 1024px | Desktop |
+| ≤ 1024px | Tablet |
+| ≤ 768px | Mobile |
+| ≤ 480px | Mobile pequeno |
+
+---
+
+## 👤 Autor
+
+**Matheus Pacheco**
+UX/UI Designer & Desenvolvedor Web
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheuspachecouxdesign/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/SEU_USUARIO)
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+> Projeto desenvolvido como parte do portfólio de desenvolvimento web.
+> Disponível para adaptação e uso em projetos reais para clientes.
