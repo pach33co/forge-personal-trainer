@@ -1,11 +1,7 @@
 # FORGE — Personal Trainer Landing Page
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-
-Landing page profissional desenvolvida para personal trainers e academias. Projeto focado em conversão, com design moderno e experiência mobile otimizada.
+Landing page profissional desenvolvida para personal trainers e academias.
+Projeto focado em conversão, com design moderno e experiência mobile otimizada.
 
 🔗 **[Ver projeto ao vivo](https://forge-personal-trainer.vercel.app)**
 
@@ -13,7 +9,8 @@ Landing page profissional desenvolvida para personal trainers e academias. Proje
 
 ## 📋 Sobre o Projeto
 
-O FORGE é uma landing page de alta conversão para profissionais de educação física. O objetivo é apresentar os serviços do personal trainer, exibir resultados reais de alunos e capturar leads qualificados através de um formulário de contato funcional.
+O FORGE é uma landing page de alta conversão para profissionais de educação física.
+O objetivo é apresentar os serviços do personal trainer, exibir resultados reais de alunos e capturar leads qualificados através de um formulário de contato funcional.
 
 ---
 
@@ -73,8 +70,7 @@ forge-personal-trainer/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/forge-personal-trainer.git
-
+git clone https://github.com/pach33co/forge-personal-trainer.git
 # Acesse a pasta
 cd forge-personal-trainer
 
@@ -126,8 +122,8 @@ Não há dependências ou instalações necessárias — o projeto roda diretame
 **Matheus Pacheco**
 UX/UI Designer & Desenvolvedor Web
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheuspachecouxdesign/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/SEU_USUARIO)
+[![LinkedIn] (https://www.linkedin.com/in/matheuspachecouxdesign/)
+[![GitHub] (https://github.com/pach33co)
 
 ---
 
